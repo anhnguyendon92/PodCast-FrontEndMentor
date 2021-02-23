@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    background-image: url("../assets/mobile/image-host.jpg");
+    background-color: #121725;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 78.5vw;
+    margin: auto;
+    padding-bottom: 94px;
+    position: relative;
+}
+
+.header-container svg{
+    margin: 60px auto;
+    display: block;
+}
+
+main {
+    position: relative;
+    top: 25px;
+
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 1.6rem;
+}
